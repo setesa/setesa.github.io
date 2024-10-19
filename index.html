@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Pencarian Nama</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Bagian Cuplikan Video -->
+  <div class="video-section">
+    <h1>Cuplikan Video Pendek</h1>
+    <video width="400" controls>
+      <source src="Vidio/contoh.mp4" type="video/mp4">
+      Browser Anda tidak mendukung tag video.
+    </video>
+  </div>
+
+  <!-- Bagian Kolom Pencarian -->
+  <div class="search-section">
+    <h2>Cari Nama</h2>
+    <input type="text" id="nameInput" placeholder="Masukkan nama...">
+    <button onclick="searchName()">Cari</button>
+  </div>
+
+  <!-- Bagian Hasil Pencarian -->
+  <div id="result" class="result-section"></div>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
